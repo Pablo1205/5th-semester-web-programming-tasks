@@ -1,0 +1,5 @@
+Before using these .php files, you must please create a database called "listofcars" in your phpMyAdmin.
+
+The program will create a table called "cars" and and allow the user to manipulate it.
+
+But it doesn't create the database, nor delete the database and the table (once created, when the .php file is opened for the first time). 

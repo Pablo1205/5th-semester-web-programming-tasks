@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>5 Java Functions</title>
+    <script src="../5 Js Functions/5_Java_Functions.js"></script>
+   </head>
+
+  <body>
+    <header>
+
+        <p id="title_cars"> Enter the names of your cars :</p> <br>
+        <ol id="label" >
+            <li>
+                <label > <b> How many cars (between 0 and 3) ? </b></label>
+            <input id="nbcar" type="number" name="quantity" placeholder="Enter a number" min="0" max="3"> 
+            </li>
+          <li >
+            <label > <b> First Car : </b></label>
+            <input id="fcar" type="text" name="firstcar" placeholder="First car's name"> 
+            <label > <b> bought in : </b></label>
+            <input id="fdate" type="number" name="firstcardate" placeholder="Date"  min="2000" max="2021">
+          </li>
+          <li >
+            <label  >  <b>Last Car :</b> </label>
+            <input id="scar" type="text" name="secondcar" placeholder="Second car's name">
+            <label > <b> bought in : </b></label>
+            <input id="sdate" type="number" name="secondcardate" placeholder="Date"  min="2000" max="2021">
+          </li>
+          <li>
+            <label > <b>Third Car : </b></label>
+            <input id="tcar" type="text" name="thirdcar" placeholder="Third car's name">
+            <label > <b> bought in : </b></label>
+            <input id="tdate" type="number" name="thirdcardate" placeholder="Date"  min="2000" max="2021">
+          </li>
+        </ol>
+
+        <div class="Buttons">
+            <br>
+            <button type="submit" class="btn" onclick="FillCarArr()"><b>Submit Regular class</b></button>
+            <br><br>
+            <button type="submit" class="btn" onclick="PrintMessage()"><b>Print JSON text </b></button>
+        </div>
+
+
+    </header>
+    <br>
+    <p>Regular class : </p> 
+    <p id="list_of_cars"></p> <br>
+    <p>JSON text (numberplate generator): </p> 
+    <p id="message_JSON"></p> <br>
+    
+  </body>
+</html>

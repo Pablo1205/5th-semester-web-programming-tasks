@@ -1,0 +1,3 @@
+The process start on file "define_password" to create a password. 
+
+The "connected_password" page only contains a message to show that the user is on the right page.
